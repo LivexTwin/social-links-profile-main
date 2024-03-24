@@ -1,0 +1,61 @@
+body {
+  font-size: var(--size-2xl);
+  background-color: var(--clr-almostBlack);
+  min-height: 100dvh;
+  display: grid;
+  place-content: center;
+}
+
+.logo {
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+
+.card {
+  background-color: var(--clr-light);
+  padding: 2rem;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.location {
+  font-family: "league gothic", sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: var(--size-base);
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-family: vampireFont, sans-serif;
+  font-size: var(--size-sm);
+  color: whitesmoke;
+}
+
+.card ul {
+  margin-top: 1.75rem;
+}
+
+.card ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.description span a {
+  color: var(--clr-slate600);
+}
+
+.card ul li a {
+  display: block;
+  font-family: "bangers", sans-serif;
+  font-size: var(--size-3xl);
+  color: whitesmoke;
+}
+
+.card a:hover {
+  color: var(--clr-slate600);
+  transform: scaleY(1.12);
+  opacity: 1;
+  transition: opacity 1s;
+}
