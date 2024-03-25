@@ -1,8 +1,8 @@
 /* color variables */
 :root {
   --clr-dark: hsl(0, 0%, 20%);
-  --clr-light: hsla(0, 0%, 30%, 0.355);
-  --clr-almostBlack: hsla(0, 0%, 0%, 0.93);
+  --clr-light: hsl(0, 0%, 30%);
+  --clr-almostBlack: hsla(0, 1%, 15%, 0.605);
   --clr-slate400: hsl(0, 98%, 24%);
   --clr-slate600: hsl(0, 78%, 44%);
   --clr-slate800: ;
